@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git https://github.com/Harsha-jally/jenkins-docker.git
+                git 'https://github.com/Harsha-jally/jenkins-docker.git'
             }
         }
         stage('Install') {
